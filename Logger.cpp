@@ -1,4 +1,3 @@
-// logger.cpp
 #include "Logger.h"
 
 Logger::Logger(const std::string &filename, LogLevel defaultLevel) 
