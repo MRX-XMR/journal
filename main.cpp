@@ -22,7 +22,7 @@ void userInput() {
         std::cout << "Введите уровень (0 - DEBUG, 1 - INFO, 2 - ERROR) (по умолчанию INFO): ";
         int levelInput;
         std::string input;
-        std::getline(std::cin, input);  // Считываем строку для ввода уровня
+        std::getline(std::cin, input);  
 
         if (input.empty()) {  // Если ничего не введено, устанавливаем уровень по умолчанию
             levelInput = 1;  // Уровень INFO
