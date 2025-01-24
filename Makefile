@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = 	-std=c++17 -pthread -fPIC -ldl -e '$ORIGIN/'
+CFLAGS = 	-std=c++17 -pthread -fPIC 
 LIB_NAME = liblogged.so
 TARGET = app
 SOURCES = Logger.cpp main.cpp
